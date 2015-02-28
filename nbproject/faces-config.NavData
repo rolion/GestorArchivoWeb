@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scene Scope="Project" version="2">
+    <Scope Scope="Faces Configuration Only"/>
+    <Scope Scope="Project">
+        <Node id="error.xhtml" x="197" y="429" zoom="true"/>
+        <Node id="login.xhtml" x="460" y="50" zoom="true"/>
+        <Node id="Principal.xhtml" x="96" y="76" zoom="true"/>
+        <Node id="NuevoUsuario.xhtml" x="523" y="359" zoom="true"/>
+        <Node id="buscar.xhtml" x="333" y="160" zoom="true"/>
+        <Node id="upLoadImages.xhtml" x="721" y="225" zoom="true"/>
+        <Node id="carpeta.xhtml" x="705" y="135" zoom="true"/>
+        <Node id="notWelcome.xhtml" x="150" y="300" zoom="true"/>
+    </Scope>
+    <Scope Scope="All Faces Configurations"/>
+</Scene>

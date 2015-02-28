@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 10-feb-2015, 14:56:27
+    Author     : Rodry
+*/
+#bodyLogin
+{
+    background: #327BBB;
+    font-family: Arial;
+    font-size: 16px;
+    text-align: center;
+    margin: 0;
+}
+header
+{
+   background:url("../resources/css/img/icon_document.png") no-repeat 20% center , 
+       #1F3344 ; 
+   background-size: auto;
+   margin: 0;
+   padding: 0.5em 0;
+   width: 100%;
+  // height: 100%;
+   
+}
+header h1
+{
+   font-style: italic;
+   color: #F3F2EC;
+   text-shadow: rgba(255,255,255,0.5) 5px 5px 10px; 
+}
+#formLogin section
+{
+    alignment-adjust: central;
+    background: url("../resources/css/img/user.png") no-repeat 20% center ;
+    background-color: #FAAC58;
+    //background-size:100%;
+    border-radius: 0.5em;
+    box-shadow: rgba(0,0,0,0.5) 5px 5px 10px;
+    display: block;
+    margin: 10em auto;
+    line-height: 1.5em;
+    padding: 3em 0;
+    width: 60%;
+}
+#divLogin
+{
+    font-style: oblique;
+    font-size: 1em;
+    color: #1F3344;
+    
+}
+#divPrincipal{
+    margin: 1em;
+    padding: 2em;
+}
+.ui-scrollpanel
+{
+  background:   #327BBB;   
+  color: white;
+  float: left ;
+  height: 60%;
+  margin: 1em 0;
+  width: 40%;
+}
+.ui-tree 
+{
+  color: white;
+  background:   #327BBB;   
+  margin: 0;
+  text-align: left;
+  width: 40%;
+}
+.ui-scrollpanel .myimg
+{
+    display: inline-block;
+    vertical-align: top;
+}
+.myimg
+{
+    float:right; 
+    height: 90%;
+    margin: 0 5em;
+    width: 70%;  
+}
+
+

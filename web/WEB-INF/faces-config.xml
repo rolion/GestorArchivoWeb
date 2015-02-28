@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<faces-config version="2.2"
+              xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-facesconfig_2_2.xsd">
+    <navigation-rule>
+        <from-view-id>/login.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>No Valido</from-outcome>
+            <to-view-id>/notWelcome.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>nuevo</from-outcome>
+            <to-view-id>/NuevoUsuario.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>Principal</from-outcome>
+            <to-view-id>/Principal.xhtml</to-view-id>
+        </navigation-case>
+        
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/NuevoUsuario.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>index</from-outcome>
+            <to-view-id>/login.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>error</from-outcome>
+            <to-view-id>/error.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/Principal.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>upLoadImages</from-outcome>
+            <to-view-id>/upLoadImages.xhtml</to-view-id>
+        </navigation-case>
+        <navigation-case>
+            <from-outcome>buscar</from-outcome>
+            <to-view-id>/buscar.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <navigation-rule>
+        <from-view-id>/upLoadImages.xhtml</from-view-id>
+        <navigation-case>
+            <from-outcome>volverPrincipal</from-outcome>
+            <to-view-id>/Principal.xhtml</to-view-id>
+        </navigation-case>
+    </navigation-rule>
+    <context-param>
+        <param-name>primefaces.UPLOADER</param-name>
+        <param-value>auto|native|commons</param-value>
+    </context-param>
+</faces-config>
